@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+
     public void subs(View view){
         if (num1.getText().toString().matches("") || num2.getText().toString().matches("")) {
             result.setText("Lütfen Bir Sayı Giriniz!");
